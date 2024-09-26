@@ -1,0 +1,24 @@
+/* Eliminar márgenes y ajustar el ancho del header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Ajustar el espacio interno sin márgenes */
+  background-color: #ffeb99; /* Fondo amarillo claro */
+  width: 100vw; /* Ocupa todo el ancho de la ventana */
+  box-sizing: border-box; /* Incluye padding en el ancho total */
+  height: 70px; /* Altura fija para el header */
+  margin: 0; /* Eliminar márgenes externos */
+}
+
+/* Estilo del logo */
+.logo {
+  flex: 0 0 auto; /* El logo toma solo el espacio necesario */
+}
+
+/* Estilo del contenedor de botones */
+.nav-buttons {
+  display: flex;
+  flex-grow: 1; /* Ocupa todo el espacio restante */
+  justify-content: space-around; /* Distribuir equitativamente los botones */
+}
