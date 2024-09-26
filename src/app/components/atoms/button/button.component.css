@@ -1,6 +1,13 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+button {
+  padding: 10px 20px;
+  background-color: #F0C148;
+=======
 button {
   padding: 10px 20px;
   background-color: #ffd700; /* Amarillo más intenso */
+>>>>>>> d544c7cc5103d2628e8fa7950404ca0238aeba1a
   color: white;
   border: none;
   cursor: pointer;
@@ -8,8 +15,28 @@ button {
   transition: background-color 0.3s;
   font-size: 16px;
   width: 15vw;
+<<<<<<< HEAD
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 3px 3px 0px #b18106;  /* Sombras negras gruesas */
+              
+}
+
+button:hover {
+  background-color: #F0C148; 
+}
+
+.huella{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+=======
 }
 
 button:hover {
   background-color: #e6c200; /* Amarillo más oscuro al hacer hover */
 }
+>>>>>>> d544c7cc5103d2628e8fa7950404ca0238aeba1a
