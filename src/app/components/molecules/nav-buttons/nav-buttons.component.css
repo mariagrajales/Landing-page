@@ -1,0 +1,7 @@
+.nav-buttons {
+  display: flex;
+  flex-grow: 1; /* Permitir que ocupe el espacio disponible */
+  justify-content: space-evenly; /* Distribuir los botones equitativamente */
+  align-items: center; /* Centrar los botones verticalmente */
+  width: 90vw;
+}

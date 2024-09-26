@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+button {
+  padding: 10px 20px;
+  background-color: #F0C148;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  width: 15vw;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 3px 3px 0px #b18106;  /* Sombras negras gruesas */
+              
+}
+
+button:hover {
+  background-color: #F0C148; 
+}
+
+.huella{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
