@@ -16,3 +16,8 @@
 .adoption-button:hover {
   background-color: #e6c200;
 }
+
+img{
+  width: 25px;
+  height: 25px;
+}
