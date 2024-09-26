@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { DogCardListComponent } from '../../components/organisms/dog-card-list/dog-card-list.component';
 
 @Component({
   selector: 'app-perritos',
   templateUrl: './perritos.component.html',
   styleUrls: ['./perritos.component.css'],
   standalone: true,
-  imports: [RouterLink]  // Agregar RouterLink aquí
+  imports: [DogCardListComponent],
 })
 export class PerritosComponent {}

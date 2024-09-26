@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ffeb99; /* Fondo oscuro */
+  background-color: #ffeb99;
   color: black;
   padding: 20px;
   text-align: center;
@@ -7,11 +7,11 @@
 
 .footer-content {
   display: flex;
-  justify-content: space-between; /* Espacio entre columnas */
+  justify-content: space-between;
   gap: 20px;
-  max-width: 1200px; /* Ancho máximo para mantener un buen diseño */
-  margin: 0 auto; /* Centrar el contenido */
-  flex-wrap: wrap; /* Permitir que las columnas se ajusten en pantallas pequeñas */
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .footer-column {
