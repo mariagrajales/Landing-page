@@ -4,13 +4,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 20px; /* Ajustar el espacio interno sin márgenes */
-<<<<<<< HEAD
   background-color: #F6CB5C; /* Fondo amarillo claro */
-  width: 98.9vw; /* Ocupa todo el ancho de la ventana */
-=======
-  background-color: #ffeb99; /* Fondo amarillo claro */
   width: 100vw; /* Ocupa todo el ancho de la ventana */
->>>>>>> d544c7cc5103d2628e8fa7950404ca0238aeba1a
   box-sizing: border-box; /* Incluye padding en el ancho total */
   height: 70px; /* Altura fija para el header */
   margin: 0; /* Eliminar márgenes externos */
