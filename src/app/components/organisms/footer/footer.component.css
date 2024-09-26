@@ -1,0 +1,31 @@
+.footer {
+  background-color: #ffeb99; /* Fondo oscuro */
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Espacio entre columnas */
+  gap: 20px;
+  max-width: 1200px; /* Ancho máximo para mantener un buen diseño */
+  margin: 0 auto; /* Centrar el contenido */
+  flex-wrap: wrap; /* Permitir que las columnas se ajusten en pantallas pequeñas */
+}
+
+.footer-column {
+  flex: 1; /* Cada columna toma un espacio igual */
+  min-width: 200px; /* Ancho mínimo para cada columna */
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
