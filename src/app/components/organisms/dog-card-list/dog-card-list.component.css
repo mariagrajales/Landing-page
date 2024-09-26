@@ -1,6 +1,6 @@
 .dog-card-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  grid-template-columns: repeat(3, minmax(250px, 1fr)); /* Ajusta el ancho mínimo de las tarjetas */
   gap: 20px; /* Espacio entre las tarjetas */
   padding: 20px; /* Espacio alrededor del contenedor */
   justify-items: center; /* Centrar las tarjetas horizontalmente */

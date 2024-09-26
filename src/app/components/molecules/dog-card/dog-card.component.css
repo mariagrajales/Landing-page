@@ -1,5 +1,5 @@
 .dog-card {
-  width: 100%;
+  width: 100vw;
   background-color: #add8e6; /* Light blue background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -8,6 +8,7 @@
   align-items: center;
   padding: 10px;
   transition: transform 0.3s;
+  max-width: 300px; /* Ajusta este valor para aumentar el ancho máximo de las tarjetas */
 }
 
 .dog-card:hover {
